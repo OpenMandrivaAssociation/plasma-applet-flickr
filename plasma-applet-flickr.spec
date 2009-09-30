@@ -10,7 +10,7 @@ Url: 		http://kde-look.org/content/show.php/Flickr+On+Plasma?content=94800
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 #BuildRequires:  kde4-macros
 BuildRequires:  kdelibs4-devel
-
+BuildRequires:	kdeedu4-devel
 
 %description 
 The Plasma applet showing:
@@ -29,7 +29,7 @@ The Plasma applet showing:
 
 %build
 %cmake_kde4
-make
+make -j 1
 
 %install
 %find_lang %{oname}
