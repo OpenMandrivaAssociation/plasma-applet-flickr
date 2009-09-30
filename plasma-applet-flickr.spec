@@ -29,7 +29,7 @@ The Plasma applet showing:
 
 %build
 %cmake_kde4
-%make
+make
 
 %install
 %find_lang %{oname}
