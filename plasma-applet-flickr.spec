@@ -1,7 +1,7 @@
 %define		oname  flickrop
 Summary:	Flickr On Plasma
 Name:		plasma-applet-flickr
-Version: 	0.7
+Version: 	0.7.1
 Release: 	%mkrel 1
 #Source0:	%oname-%version.tar.bz2
 Source0:	http://www.bramschoenmakers.nl/files/%oname-%version.tar.bz2
@@ -49,4 +49,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_kde_libdir}/kde4/*
 %{_kde_datadir}/kde4/services/*
-
+%{_datadir}/locale/nl/LC_MESSAGES/*
