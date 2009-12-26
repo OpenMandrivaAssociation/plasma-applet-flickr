@@ -20,12 +20,6 @@ The Plasma applet showing:
 - a particular photoset
 - a set of photos based on a tag
 
-#%files -f %{oname}.lang
-#%defattr(-,root,root)
-#%{_kde_libdir}/kde4/*
-#%{_kde_datadir}/kde4/services/*
-# Workaround strange build failure
-%{_datadir}/locale/nl/LC_MESSAGES/flickrop.mo
 
 %prep
 %setup -q -n %oname-%version
@@ -50,3 +44,4 @@ rm -rf %{buildroot}
 %{_kde_libdir}/kde4/*
 %{_kde_datadir}/kde4/services/*
 %{_datadir}/locale/nl/LC_MESSAGES/*
+%{_datadir}/locale/es/LC_MESSAGES/*
