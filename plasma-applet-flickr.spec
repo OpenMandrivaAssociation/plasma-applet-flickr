@@ -2,7 +2,7 @@
 Summary:	Flickr On Plasma
 Name:		plasma-applet-flickr
 Version: 	0.7.1
-Release: 	%mkrel 1
+Release: 	%mkrel 2
 #Source0:	%oname-%version.tar.bz2
 Source0:	http://www.bramschoenmakers.nl/files/%oname-%version.tar.bz2
 License: 	GPLv3
