@@ -7,7 +7,7 @@ Release: 	%mkrel 2
 Source0:	http://www.bramschoenmakers.nl/files/%oname-%version.tar.bz2
 License: 	GPLv3
 Group: 		Graphical desktop/KDE
-Url: 		http://kde-look.org/content/show.php/Flickr+On+Plasma?content=94800
+Url: 		https://kde-look.org/content/show.php/Flickr+On+Plasma?content=94800
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 #BuildRequires:  kde4-macros
 BuildRequires:  kdelibs4-devel
