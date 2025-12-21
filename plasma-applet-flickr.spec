@@ -10,6 +10,7 @@ Group: 		Graphical desktop/KDE
 Url: 		https://kde-look.org/content/show.php/Flickr+On+Plasma?content=94800
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 #BuildRequires:  kde4-macros
+BuildRequires:	make
 BuildRequires:  kdelibs4-devel
 BuildRequires:	kdeedu4-devel
 
